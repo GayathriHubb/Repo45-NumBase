@@ -5,10 +5,10 @@ A Windows desktop application built with C# and WinForms that converts numbers b
 ## 📋 Overview
 
 **Number Base Converter** is a user-friendly GUI application that allows you to convert numeric values between four different number bases:
-- **Binary (Base 2)** - 0, 1
-- **Octal (Base 8)** - 0-7
-- **Decimal (Base 10)** - 0-9
-- **Hexadecimal (Base 16)** - 0-9, A-F
+- **Binary (Base 2)** : 0, 1
+- **Octal (Base 8)** : 0-7
+- **Decimal (Base 10)** : 0-9
+- **Hexadecimal (Base 16)** : 0-9, A-F
 
 ## ✨ Features
 
