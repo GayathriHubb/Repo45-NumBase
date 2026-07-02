@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>Gakuseisean-Ivista-2-Alarm-Synchonize.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Output\**" />
+    <EmbeddedResource Remove="Output\**" />
+    <None Remove="Output\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Gakuseisean-Ivista-2-Alarm-Synchonize.ico" />
+  </ItemGroup>
+
+</Project>
